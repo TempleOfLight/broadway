@@ -9,12 +9,34 @@ body{
   font-family: helvetica;
 }
 
-.menu a,li{
+.menu li{
   font-size: 18px;
   list-style: none;
-  color: white;
   text-align: center;
   padding: 5px;
+}
+
+.menu a{
+  color: white;
+}
+
+.footer{
+  background-color: dimgrey;
+  text-align: left;
+  color: white;
+}
+
+.footer li{
+  list-style-type: none;
+  display: inline;
+}
+
+.footer a{
+  color: white;
+}
+
+.copywright{
+  font-size: 11px;
 }
 
 h1{
